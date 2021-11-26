@@ -1,1 +1,1 @@
-list = ["sistemas", "intranet", "www", "prefeitura", "admin", "www2", "www3", "emergencial", "ouvidoria", "teste", "conselhotutelar", "arquivos", "ecommerce", "cultura"]
+list = ["www", "intranet", "www", "	portal", "admin", "www2", "www3", "vpn", "cloud", "teste", "store", "files", "ecommerce", "app", "secure", "smtp", "server", "ftp"]
