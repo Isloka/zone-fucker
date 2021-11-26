@@ -11,3 +11,5 @@ Made by Isloka
 - Python 3.*
 # Usage
 <pre>python main.py</pre>
+# Preview
+![preview](https://media.discordapp.net/attachments/886022101880934450/913891805819445328/unknown.png)
