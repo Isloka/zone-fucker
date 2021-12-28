@@ -14,6 +14,10 @@ while True:
     finalDomain = 'https://'+domain+'/'
     rDefacer = random.choice(defacers.list)
     r = requests.post('http://www.zone-h.org/notify/single', headers={"User-Agent": ua}, data=[('defacer', rDefacer), ('domain1', finalDomain), ('hackmode', hm), ('reason', r)])
-    print(rDefacer+' > '+finalDomain+' ['+ua+']')
+    if "You are banned. Probably because you spammed the onhold." in r.text:
+      print("[X] You have been banned from Zone-H, change your IP and try again.")
+      break
+    else:
+      print(rDefacer+' > '+finalDomain+' ['+ua+']')
   except socket.gaierror:
     continue
